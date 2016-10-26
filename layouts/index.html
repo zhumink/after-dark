@@ -26,9 +26,9 @@
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
         <p>{{ .Summary }}</p>
       {{ end }}
-      {{ range $.Site.Data.products}}
+     <!-- add snipcart {{ range $.Site.Data.products}}
         {{ partial "product.html" . }}
-      {{ end}}
+      {{ end}} -->
     </main>
     <footer>
       {{ partial "pagination" . }}
