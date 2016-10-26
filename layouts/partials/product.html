@@ -1,0 +1,18 @@
+<div style="float:left;width:30%">
+  <h2 id="title">{{ .title }}</h2>
+    <div>
+        <img width="300" src="{{ .imgUrl }}" />
+      <p>
+        {{ .description }}
+      </p>
+        <a href="#"
+        class="snipcart-add-item"
+        data-item-id="{{ .id }}"
+        data-item-name="{{ .title }}"
+        data-item-price="{{ .price }}"
+        data-item-weight="{{ .weight }}"
+        data-item-url="{{ .url }}">
+        get
+    </a>
+    </div>
+ </div>

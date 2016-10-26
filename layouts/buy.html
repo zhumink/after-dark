@@ -21,14 +21,7 @@
       {{ partial "snipcart"}}
     </header>
     <main>
-      <h1>{{ .Title }}</h1>
-      {{ range (.Paginate (where .Data.Pages "Type" "post")).Pages }}
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        <p>{{ .Summary }}</p>
-      {{ end }}
-      {{ range $.Site.Data.products}}
-        {{ partial "product.html" . }}
-      {{ end}}
+
     </main>
     <footer>
       {{ partial "pagination" . }}
