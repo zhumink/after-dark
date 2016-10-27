@@ -21,7 +21,7 @@
      <!-- {{ partial "snipcart"}} -->
     </header>
     <main>
-      <h1>{{ .Title }}</h1>
+    <h1>{{ .Title }}</h1>
       {{ range (.Paginate (where .Data.Pages "Type" "post")).Pages }}
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
         <p>{{ .Summary }}</p>
@@ -32,7 +32,6 @@
     </main>
     <footer>
       {{ partial "pagination" . }}
-   
       {{ partial "powered-by" . }}
     </footer>
     {{ template "_internal/google_analytics_async.html" . }}
