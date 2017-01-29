@@ -7,6 +7,10 @@ A retro dark theme for [Hugo](https://gohugo.io/).
 > Simplicity is the ultimate sophistication<br>
 > --- Leonardo da Vinci
 
+## Demo
+
+Head to [Hack Cabin](http://hackcabin.com) for a production example running on AWS. There you can learn how After Dark is used within the Hack Cabin [site architecture](http://hackcabin.com/post/initial-commit/) as well.
+
 ## Features
 
 - Dark theme intended for low-light reading
@@ -31,7 +35,7 @@ A retro dark theme for [Hugo](https://gohugo.io/).
 From your Hugo site directory, run:
 
 ```shell
-(cd themes; git clone git@github.com:comfusion/after-dark.git)
+(cd themes; git clone https://github.com/comfusion/after-dark)
 hugo serve --theme=after-dark
 ```
 
