@@ -12,8 +12,13 @@
     {{ end }}
     <link rel="canonical" href="{{ .Permalink }}">
     {{ partial "favicon" . }}
+    
     {{ partial "critical-vendor.css" . }}
-    {{ partial "critical-custom.css" . }}
+    {{ partial "critical-custom.css" . }} 
+    
+   <!-- {{partial "skeleton.css" . }}
+    {{partial "custom.css" . }}
+    {{partial "logo" . }} -->
   </head>
   <body class="hack dark main container">
     <header>
