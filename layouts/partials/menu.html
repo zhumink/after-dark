@@ -5,6 +5,7 @@
       <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL }}" /> {{.Name}}</a>
     {{ end }}
   </nav>
+  
+<!--id="logo"> <i class="logo" style="background-image: url('{{ .Site.Params.logo | absURL }}')">/i>-->
 {{ end }}
 
-<!--id="logo"> <i class="logo" style="background-image: url('{{ .Site.Params.logo | absURL }}')">/i>-->
